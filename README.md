@@ -2,8 +2,8 @@
 Smarty Trait for Silex
 
 ## Requirements
-silex 1.x, 2.x
-SmartyServiceProvider
+- silex 1.x, 2.x
+- SmartyServiceProvider
 
 ##Installation
 The best way to install Smarty Trait is to use a [Composer](https://getcomposer.org/download):
