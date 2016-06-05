@@ -1,0 +1,17 @@
+{
+    "name": "junker/smarty-trait",
+    "description": "Silex Smarty Trait",
+    "keywords": ["silex","smarty","trait"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Kosenkov",
+            "email": "dk-junker@ya.ru"
+        }
+    ],
+    "autoload": {
+        "psr-0" : {
+            "Junker" : "src/"
+        }
+    }
+}
