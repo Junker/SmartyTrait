@@ -7,14 +7,11 @@ use Symfony\Component\HttpFoundation\StreamedResponse;
 
 trait SmartyTrait
 {
-	public function render($template, $template_data = [], Response $response = null)
+	public function render($template, array $template_data = [], Response $response = null)
 	{
 		$smarty = $this['smarty'];
 
-		foreach ($template_data as $key => $value) 
-		{
-			$smarty->assign($key, $value);
-		}
+		$smarty->assign($template_data);
 
 		if ($response instanceof StreamedResponse) 
 		{
